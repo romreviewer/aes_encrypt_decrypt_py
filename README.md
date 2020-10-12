@@ -35,4 +35,4 @@ You can install the missing dependencies thorugh `pip` or you can paste the belo
 
 ## Authors
 * [RomReviewer(Script)](https://github.com/romreviewer)
-* [Legrandin](https://github.com/Legrandin)
+* [Legrandin(pycryptodome)](https://github.com/Legrandin)
