@@ -13,7 +13,7 @@ iv=str.encode(js["iv"])
 key=str.encode(js["key"])
 def encrypt():
     f = open(os.path.join(__location__,"input.txt"), "r")
-    data = str.encode(str(f))
+    data = str.encode(str(f.read()))
     cipher = AES.new(key, AES.MODE_CBC,iv)
     ct_bytes = cipher.encrypt(pad(data, AES.block_size))
     ct = b64encode(ct_bytes).decode('utf-8')
